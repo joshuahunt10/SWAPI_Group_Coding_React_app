@@ -26,16 +26,16 @@ export default class BaseLayout extends Component {
 
                 </li>
                 <li>
-                  <NavLink to="/characters" activeClassName='selected'>Characters</NavLink>
+                  <NavLink to="/characters" activeStyle={{color: 'white'}} activeClassName='selected'>Characters</NavLink>
                 </li>
                 <li>
                   {/* Add a NavLink set to starships. Include activeClassName */}
-                  <NavLink to="/starships" activeClassName='selected'>Startships</NavLink>
+                  <NavLink to="/starships" activeStyle={{color: 'white'}} activeClassName='selected'>Startships</NavLink>
 
                 </li>
                 <li>
                   {/* Add a NavLink set to films. Include activeClassName */}
-                  <NavLink to="/films" activeClassName='selected'>Films</NavLink>
+                  <NavLink to="/films" activeStyle={{color: 'white'}} activeClassName='selected'>Films</NavLink>
 
                 </li>
               </ul>
