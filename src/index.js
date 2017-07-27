@@ -20,6 +20,9 @@ ReactDOM.render(
   <BaseLayout>
     <Switch>
       <Route exact path='/' component={Explorer} />
+      <Route path='/characters' component={People} />
+      <Route path='/starships' component={Starships} />
+      <Route path='/films' component={Films} />
     </Switch>
   </BaseLayout>
 </BrowserRouter>
